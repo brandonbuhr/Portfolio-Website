@@ -1,5 +1,6 @@
 * {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0 auto;
 }
 
 li {
@@ -7,22 +8,35 @@ li {
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 /* 
-NAVBAR
+NAVBAR -------------------------------------
 */
-
+.nav-container {
+  background-color: #50d8d7;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 .nav-list {
   display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
-  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-center {
+  display: flex;
+}
+.nav-item {
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .nav-logo {
-  position: absolute;
-  left: 24px;
+  margin-left: -32px;
+  display: flex;
+  justify-content: center;
+}
+.nav-logo-img {
+  width: 38px;
 }
 .nav-toggle {
-  position: absolute;
-  right: 24px;
+  margin-right: 32px;
 }
