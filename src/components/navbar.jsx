@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaCircleHalfStroke } from "react-icons/fa6";
 export default function Navbar() {
   return (
     <>
@@ -23,7 +24,11 @@ export default function Navbar() {
                 <li className="nav-item">Contact</li>
               </Link>
             </div>
-            <li className="nav-toggle">Toggle</li>
+            <li className="nav-toggle">
+              <button>
+                <FaCircleHalfStroke />
+              </button>
+            </li>
           </ul>
         </div>
       </div>
