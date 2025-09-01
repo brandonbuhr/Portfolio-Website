@@ -14,6 +14,9 @@ export default function Navbar() {
               />
             </li>
             <div className="nav-center">
+              <Link to="/">
+                <li className="nav-item">Home</li>
+              </Link>
               <Link to="/about">
                 <li className="nav-item">About</li>
               </Link>
