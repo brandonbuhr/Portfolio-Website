@@ -56,3 +56,15 @@ NAVBAR -------------------------------------
 .nav-toggle:hover {
   scale: 1.5;
 }
+
+/* 
+FOOTER -------------------------------------
+*/
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  background-color: #50d8d7;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
