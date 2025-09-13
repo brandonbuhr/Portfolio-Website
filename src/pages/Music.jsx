@@ -1,9 +1,9 @@
 import Navbar from "../components/navbar";
-export default function Projects() {
+export default function Music() {
   return (
     <>
       <Navbar />
-      <div>Projects</div>
+      <div>Music</div>
     </>
   );
 }

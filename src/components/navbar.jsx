@@ -7,11 +7,7 @@ export default function Navbar() {
         <div className="nav-row">
           <ul className="nav-list">
             <li className="nav-logo">
-              <img
-                className="nav-logo-img"
-                src={"/public/BrandonBuhrLogo.png"}
-                alt="Logo"
-              />
+              <img className="nav-logo-img" src={"/main-icon.jpg"} alt="Logo" />
             </li>
             <div className="nav-center">
               <Link to="/">
@@ -21,7 +17,7 @@ export default function Navbar() {
                 <li className="nav-item">About</li>
               </Link>
               <Link to="/projects">
-                <li className="nav-item">Projects</li>
+                <li className="nav-item">Music</li>
               </Link>
               <Link to="/contact">
                 <li className="nav-item">Contact</li>
